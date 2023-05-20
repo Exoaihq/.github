@@ -14,17 +14,13 @@ The server repo can be found here: https://github.com/Exoaihq/exo-server
 
 You'll need to clone and run both exo-app and exo-server to get the app to work locally.
 
+If you'd like to use the (beta) production version of the app you can sign up and download it here: https://www.getexo.dev/
+
 Screen shot of the Exo app next to vscode:
 
 <p align="center">
-    <img src="[./exo-side-by-side.png](https://xexjtohvdexqxpomspdb.supabase.co/storage/v1/object/public/static-site-images/exo-side-by-side.png)" alt="Exo app with vscode">
+    <img src="https://xexjtohvdexqxpomspdb.supabase.co/storage/v1/object/public/static-site-images/exo-side-by-side.png" alt="Exo app with vscode">
 </p>
-
-## ⚠️⚠️⚠️ Caution ⚠️⚠️⚠️
-
-Exo is under under construction!
-
-I have released this into the wild far before it is production ready. Use at your own risk!
 
 ## Table of Contents
 
@@ -42,12 +38,13 @@ https://www.loom.com/share/5f34499ccfb54bfdae32ee50f454b365
 
 ## Vision
 
-The goal of the Exo app is to create [Tony Stark's Jarvis/F.R.I.D.A.Y.](https://www.youtube.com/watch?v=uKndgvIu5MY) - a chat or voice interface that you can interaction with to write code and build things. 
+The goal of the Exo app is to create [Tony Stark's Jarvis/F.R.I.D.A.Y.](https://www.youtube.com/watch?v=uKndgvIu5MY) - a chat or voice interface that you can interact with to write code and build things. 
 
 How this is different from other code generation tools?
-Exo is a freestanding app the lives on your desktop. We are far from it now, but the idea would be your would use Exo to build software (as opposed to an IDE). 
 
-Because it is a freestanding app it supports UI tools that are might better suit coding practices in a post-LLM world. 
+Exo is a freestanding app the lives on your desktop. We are far from it now, but in the future you could use *Exo* to build software (as opposed to an IDE). 
+
+Being a freestanding application, Exo embraces UI tools that are more aligned with coding practices in a post-LLM world.
 
 ## How it works
 
