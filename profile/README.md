@@ -17,7 +17,7 @@ You'll need to clone and run both exo-app and exo-server to get the app to work 
 Screen shot of the Exo app next to vscode:
 
 <p align="center">
-    <img src="./exo-side-by-side.png" alt="Exo app with vscode">
+    <img src="[./exo-side-by-side.png](https://xexjtohvdexqxpomspdb.supabase.co/storage/v1/object/public/static-site-images/exo-side-by-side.png)" alt="Exo app with vscode">
 </p>
 
 ## ⚠️⚠️⚠️ Caution ⚠️⚠️⚠️
