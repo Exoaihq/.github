@@ -17,7 +17,7 @@ You'll need to clone and run both exo-app and exo-server to get the app to work 
 Screen shot of the Exo app next to vscode:
 
 <p align="center">
-    <img src="./side-by-side.png" alt="Exo app with vscode">
+    <img src="./exo-side-by-side.png" alt="Exo app with vscode">
 </p>
 
 ## ⚠️⚠️⚠️ Caution ⚠️⚠️⚠️
@@ -31,9 +31,6 @@ I have released this into the wild far before it is production ready. Use at you
 1. [Demo](#demo)
 1. [Vision](#vision)
 1. [How it works](#how-it-works)
-1. [Quickstart](#quickstart)
-1. [Deploy](#deploy)
-1. [Contributions](#contributions)
 1. [Usage](#usage)
 1. [Limitations](#limitations)
 1. [Road map](#road-map)
@@ -57,45 +54,6 @@ Because it is a freestanding app it supports UI tools that are might better suit
 1. Code indexing - Exo allows you to index and store your code in a db. Code metadata (code explanations, dependencies, etc) and the embedding vectors live right next to each other in the postgres db. This allows LLM agents to quickly get context about user queries. 
 2. LLM agents - Exo uses LLM agents (similar to Langchain, Autogpt and others) to do common programming tasks. It will take your query, come up with a plan and then write code that executes our plan. Check out the demo above for how this works.
 3. File system wrapper - The exo election app is a wrapper for your file system. After writing code, Exo server will use the `ai_create_code` endpoint to pass the code back down the app where it will be written to your codebase. 
-
-## Quickstart
-
-### Clone repos
-
-```
-git clone https://github.com/Exoaihq/exo-app
-yarn install
-git clone https://github.com/Exoaihq/exo-server
-yarn install
-```
-
-You need two accounts to get started:
-
-1. Open AI: https://platform.openai.com/signup?launch
-2. Supabase (hosts the database): https://app.supabase.com/sign-up
-
-If you just want to start using Exo without these accounts you can sign up to use the beta version of the production app here: https://www.getexo.dev/auth/signup
-
-### Add credentials
-
-Grab your credentials after creating your account and paste into the `.env-example` file (You'll need your Open AI credentials for setting up the server):
-
-```
-SUPABASE_ANON=<your-supabase-anon>
-SUPABASE_URL=<your-supabase-url>
-```
-
-Rename `.env-example` to `.env`
-
-After you've added your credentials run:
-
-```
-yarn run start
-```
-
-## Deploy
-
-Deployment details coming soon. I use [ToDesktop](https://www.todesktop.com/) to package and deploy the production app.
 
 ## Usage
 
