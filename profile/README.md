@@ -54,6 +54,10 @@ Being a freestanding application, Exo embraces UI tools that are more aligned wi
 
 ## Usage
 
+### Quickstart
+
+https://www.loom.com/share/d2ec3f01140746e6ae1d47507f24e5ec
+
 ### Chat
 
 Exo is a chat app. You interact with the UI via the chat interface. You can ask questions like: "Can you write a ts function that counts the letters in a string to the scratch pad?"
