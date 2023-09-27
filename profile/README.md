@@ -13,8 +13,6 @@ The server repo can be found here: https://github.com/Exoaihq/exo-server
 
 You'll need to clone and run both exo-app and exo-server to get the app to work locally.
 
-If you'd like to use the (beta) production version of the app you can sign up and download it here: https://www.getexo.dev/
-
 Screen shot of the Exo app next to vscode:
 
 <p align="center">
